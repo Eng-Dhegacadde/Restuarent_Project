@@ -1,0 +1,257 @@
+.home_body{
+    background: url(images/food2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+header{
+    float: right;
+    /* background-color: aqua; */
+}
+header ul{
+   width: 900px;
+}
+header ul li{
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+    width: 120px;
+    border: 1px solid white;
+    padding: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+header ul li:hover{
+    background-color: azure;
+  
+}
+header ul li a:hover{
+    color: black;
+    font-size: 20px;
+}
+.sidebar{
+    background-color: black;
+    width: 300px;
+    height: 510px;
+    padding: 50px;
+    opacity: 0.8;
+}
+.sidebar h1{
+    text-align: center;
+     color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+.sidebar p{
+    color:white;
+    line-height: 15px;
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+ 
+}
+.sidebar button{
+    background: transparent;
+    width: 250px;
+    height: 90px;
+    color: white;
+    border: 1px solid white;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.sidebar button a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.sidebar button:hover{
+    background-color: coral;
+    cursor: pointer;
+   
+
+}
+/* team page styling */
+.team_body{
+background-color: #3a3a9b;
+}
+.container{
+    color: white;
+    margin: 20px 20px;
+    
+}
+.container .heading{
+    font-size: 30px;
+    /* margin-top: -2px; */
+}
+.profiles{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.profile{
+    justify-content: space-around;
+    align-items: center;
+}
+.profile .profile-img{
+    width: 250;
+    height: 260px;
+    margin: 40px;
+    border-radius: 50px;
+    margin-top: 45px;
+}
+.user-name{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.profile h5{
+    font-size: 18px;
+    text-align: center;
+    margin-top: -10px;
+}
+.profile p{
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: justify;
+    text-align: center;
+    
+}
+.profile{
+    flex-basis: 260px;
+}
+/* foods part styling starts here */
+.foods-body{
+background: hsl(27, 98%, 50%);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.items{
+    position: absolute;
+    top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+
+}
+.items .item img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+}
+.items .item img:hover{
+  transform: scale(1.05);
+}
+.items .item h4{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+.items .item button{
+    padding: 5px 30px;
+    text-align: center;
+    background-color: chartreuse;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.2s all;
+
+}
+.items .item button:hover{
+    transform: scale(1.04);
+}
+
+/* contact part styling */
+.contact-page{
+    background: #ff7f50;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* .contact .img img{
+    height: 550px;
+    margin-top: 0px;
+
+} */
+.contact{
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.contact #head{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact .inputs{
+    margin-left: 30px;
+
+}
+.contact .inputs label{
+    font-size: 30px;
+    color: #ff7f50;
+}
+.contact .inputs .input-text{
+    width: 83%;
+    height: 40px;
+    font-size: 20px;
+    color: blue;
+    
+}
+textarea{
+    resize: none;
+    width: 550px;
+    height: 65px;
+    color: blue;
+    font-size: 20px;
+}
+.btn-send{
+    width: 300px;
+    height: 50PX;
+    margin-left: 22%;
+    margin-top: 7%;
+    border: none;
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-send:hover{
+    background: white;
+    color: black;
+    font-size: 20px;
+}
+.contact .img img{
+position: absolute;
+left: -75%;
+top: -20%;
+transition: 0.2s all;
+
+}
+.contact .img img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
